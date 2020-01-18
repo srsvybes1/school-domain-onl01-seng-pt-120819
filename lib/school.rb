@@ -1,5 +1,5 @@
 class School
-  attr_accessor :add_student
+  attr_accessor 
   attr_reader :roster, :add_student
   ROSTER = []
   def initialize(roster)
