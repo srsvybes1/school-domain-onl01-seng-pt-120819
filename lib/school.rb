@@ -5,5 +5,7 @@ class School
   def initialize(roster)
     @roster= ROSTER
     end
-
+def add_student (add_student, grade)
+  @add_student = add_student
+  @grade = grade
   end
