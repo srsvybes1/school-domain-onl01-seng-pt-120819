@@ -4,9 +4,10 @@ class School
   ROSTER = []
   def initialize(roster)
     @roster= ROSTER
-    ROSTER << add_student
+    
     end
 def add_student
   @add_student = add_student
+  ROSTER << add_student
   end
   end
